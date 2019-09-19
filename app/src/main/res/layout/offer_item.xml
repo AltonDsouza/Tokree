@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/grey"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="160dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:visibility="visible"
+        android:id="@+id/offertext"/>
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/offerimagetext"-->
+            <!--android:visibility="gone"-->
+            <!--android:gravity="center"-->
+            <!--android:textStyle="bold"-->
+            <!--android:textSize="15sp"/>-->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="144dp"
+            android:visibility="gone"
+            android:id="@+id/offerimage"
+            android:src="@drawable/profile"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:id="@+id/title"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:gravity="center"/>
+
+
+</LinearLayout>

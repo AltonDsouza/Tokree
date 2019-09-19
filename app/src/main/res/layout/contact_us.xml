@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="vertical">
+
+        <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:textColor="@color/colorWhite"-->
+        <!--android:textStyle="bold"-->
+        <!--android:text="Contact us"-->
+        <!--android:background="@color/colorGreen"-->
+        <!--android:textSize="30sp" />-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:text="@string/Contact_Desc"
+            android:textSize="20sp" />
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textColor="@color/colorBlack"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:text="@string/Add_desc"
+            android:textSize="20sp" />
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="Contact No"
+            android:textColor="@color/colorBlack"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:autoLink="phone"
+            android:linksClickable="true"
+            android:text="(+91) 9222277702"
+            android:textSize="20sp" />
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:autoLink="phone"
+            android:linksClickable="true"
+            android:text="(+91) 9222277703"
+            android:textSize="20sp" />
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:text="Electronic support"
+            android:textColor="@color/colorBlack"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:text="tokree2014@gmail.com"
+            android:textSize="20sp" />
+        />
+
+    </LinearLayout>
+
+
+</LinearLayout>

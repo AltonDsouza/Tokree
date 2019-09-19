@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_marginLeft="2dp"
+    android:layout_centerInParent="true"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/sub_cat_text"
+        android:layout_width="135dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="Gouredws pumpkins brinjals"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

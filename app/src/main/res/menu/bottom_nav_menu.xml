@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_category"
+        android:icon="@drawable/ic_filter_list_black_24dp"
+        android:title="@string/title_category" />
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/search"
+        android:title="@string/title_search" />
+
+    <item
+        android:id="@+id/navigation_orders"
+        android:icon="@drawable/ic_my_orders"
+        android:title="@string/title_orders"/>
+
+    <item
+        android:id="@+id/whatsapp"
+        android:icon="@drawable/ic_chat_black_24dp"
+        android:title="Chat"/>
+
+
+
+
+</menu>

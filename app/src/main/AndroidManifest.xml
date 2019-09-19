@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.mkretail.retail">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/to"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/to"
+        android:testOnly="false"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:icon">
+
+        <activity android:name="com.mkretail.retail.ContactUs"
+            android:parentActivityName="com.mkretail.retail.Dashboard"
+            android:label="Contact Us"/>
+
+        <activity android:name="com.mkretail.retail.AboutUS"
+            android:label="About us"
+            android:parentActivityName="com.mkretail.retail.Dashboard"/>
+
+        <activity android:name="com.mkretail.retail.FeedComp"
+            android:parentActivityName="com.mkretail.retail.Dashboard">
+
+        </activity>
+
+        <activity android:name="com.mkretail.retail.NotificationHistory"
+            android:parentActivityName="com.mkretail.retail.Dashboard"/>
+
+        <activity android:name="com.mkretail.retail.FAQ"
+            android:label="FAQ"
+            android:parentActivityName="com.mkretail.retail.Dashboard"/>
+
+        <activity
+            android:name="com.mkretail.retail.Wishlist"
+            android:label="My Wishlist"
+            android:screenOrientation="portrait"
+            android:parentActivityName="com.mkretail.retail.Dashboard"></activity>
+
+
+        <activity
+            android:name="com.mkretail.retail.Description"
+            android:theme="@style/Theme.AppCompat.Dialog"
+            />
+
+        <activity
+            android:name="com.mkretail.retail.Refer"
+            android:label="Refer and earn"
+            android:parentActivityName="com.mkretail.retail.Dashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mkretail.retail.SearchResults"
+            android:parentActivityName="com.mkretail.retail.Search"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mkretail.retail.Cart"
+            android:label="@string/title_cart"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:parentActivityName="com.mkretail.retail.Dashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mkretail.retail.Search"
+            android:label="Search"
+            android:parentActivityName="com.mkretail.retail.Dashboard"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.mkretail.retail.Cat"
+            android:label="Category"
+            android:parentActivityName="com.mkretail.retail.Dashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mkretail.retail.Orders"
+            android:parentActivityName="com.mkretail.retail.Dashboard"
+            android:screenOrientation="portrait"
+            android:label="My Orders" />
+        <activity
+            android:name="com.mkretail.retail.SubCat"
+            android:label="Normal delivery products"
+            android:parentActivityName="com.mkretail.retail.Cat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mkretail.retail.ChangePassword"
+            android:label="Change Password"
+            android:parentActivityName="com.mkretail.retail.EditName"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mkretail.retail.EditName"
+            android:label="Edit Name"
+            android:parentActivityName="com.mkretail.retail.Profile"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.mkretail.retail.LocationSelect"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.mkretail.retail.Profile"
+            android:label="Profile"
+            android:parentActivityName="com.mkretail.retail.Dashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mkretail.retail.UploadSelfie"
+            android:label="Upload Selfie"
+            android:parentActivityName="com.mkretail.retail.Dashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mkretail.retail.EnterPassword"
+            android:label="Enter Password"
+            android:parentActivityName="com.mkretail.retail.EnterOTP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mkretail.retail.EnterOTP"
+            android:label="Enter OTP"
+            android:parentActivityName="com.mkretail.retail.SignUp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mkretail.retail.SignUp"
+            android:label="SignUp"
+            android:parentActivityName="com.mkretail.retail.Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mkretail.retail.ForgetPassword"
+            android:label="Forget Password"
+            android:parentActivityName="com.mkretail.retail.Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.mkretail.retail.Dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name="com.mkretail.retail.Login"
+            android:label="Login"
+            android:parentActivityName="com.mkretail.retail.Dashboard"
+            android:screenOrientation="portrait" />
+
+        <activity android:name="com.mkretail.retail.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <service android:name="com.mkretail.retail.FirebaseInstanceId">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

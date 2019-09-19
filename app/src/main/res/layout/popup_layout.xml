@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/rounded_button"
+    android:layout_height="wrap_content"
+    android:id="@+id/popup"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/poptitle"
+        android:hint="Title"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        />
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/packetrecyclerview"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+  <!--  <Button
+        android:layout_width="180dp"
+        android:id="@+id/popaddtocart"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:text="ADD to cart"
+        android:layout_gravity="center"
+        android:textColor="@color/error_color"
+        />-->
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/close"
+        android:background="@drawable/close"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

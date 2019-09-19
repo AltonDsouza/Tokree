@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UploadSelfie">
+
+
+    <TextView
+        android:text="Upload Selfie"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/adds_pic"
+            android:src="@drawable/icon"
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="100dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="7"
+            android:weightSum="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+
+            <ImageButton
+                android:id="@+id/cameraC"
+                android:src="@drawable/ic_camera"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp" />
+
+            <ImageButton
+                android:id="@+id/galleryC"
+                android:src="@drawable/ic_file_upload"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--<android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/adds_detail"
+            android:layout_margin="10dp"
+            android:inputType="text"
+            android:maxLines="1"
+            android:hint="Advertisement Details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout-->>
+
+    <Button
+        android:id="@+id/AddInsert"
+        android:layout_margin="10dp"
+        android:text="Insert"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

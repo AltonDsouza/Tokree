@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "887493318309",
+    "firebase_url": "https://tokreenew.firebaseio.com",
+    "project_id": "tokreenew",
+    "storage_bucket": "tokreenew.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887493318309:android:07789d65782e32f3",
+        "android_client_info": {
+          "package_name": "com.mkretail.retail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "887493318309-rerj3qjggjcb6kn0u064um4d56m3c1vr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mkretail.retail",
+            "certificate_hash": "560f233de5ac85fbccb432b0c9246948982252a0"
+          }
+        },
+        {
+          "client_id": "887493318309-1hh5uupdebhosi3bjl0v77nd6r4vkp30.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXaH1zHcvZMFhKHseDUFk_Sc3tP_7SjcM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "887493318309-1hh5uupdebhosi3bjl0v77nd6r4vkp30.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
