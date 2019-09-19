@@ -4,3 +4,8 @@ Link to playstore here: https://play.google.com/store/apps/details?id=com.mkreta
 
 
 <img src="Screenshot_20190919-192529.png" width=200>
+<img src="Screenshot_20190919-192544.png" width=200>
+<img src="Screenshot_20190919-192549.png" width=200>
+<img src="Screenshot_20190919-192602.png" width=200>
+<img src="Screenshot_20190919-192619.png" width=200>
+
